@@ -14,7 +14,7 @@ const mostraeNombre =  () => {
 }
 
 const MostraeNombreComponente =  () => {
-  return <h1>Diiego</h1>
+  return <h1>Diiego Camiino</h1>
 }
 
 export default App;
