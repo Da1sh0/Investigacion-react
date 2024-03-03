@@ -1,0 +1,2 @@
+1. Componente es una funcion de js  que retorna html
+2. Componentes siempre en mayusculas 
