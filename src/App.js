@@ -1,20 +1,16 @@
 import './App.css';
+import { Card } from './componentes/Card/Card';
+import { Usuario } from './componentes/Usuario/Usuario';
 
 function App() {
-  const name = "Diiego";
+
   return (
-    <div className="App">
-      <MostraeNombreComponente />
+    <div>
+      <Usuario nombre="Diiego" edad={19} nacionalidad="Colombia" />
+      <Usuario nombre="Yaider" edad={23} nacionalidad="Peru" />
+      <Card />
     </div>
   );
-}
-
-const mostraeNombre =  () => {
-  return "Diiego"
-}
-
-const MostraeNombreComponente =  () => {
-  return <h1>Diiego Camiino</h1>
 }
 
 export default App;

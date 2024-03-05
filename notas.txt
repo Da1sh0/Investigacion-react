@@ -1,8 +1,0 @@
-Instalacion:
-    1. npm install -g npm
-    2. node -v / npm -v
-    3. npx create-react-app .
-
-Notas:
-    1. Componente es una funcion de js  que retorna html
-    2. Componentes siempre en mayusculas 
